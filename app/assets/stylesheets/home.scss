@@ -1,3 +1,36 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#Greetings {
+  font-family: Raleway, Verdana;
+  background-color: #003366;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+#info {
+  font-family: Raleway, Verdana;
+  color: #003366;
+}
+
+.container {
+  max-width: 900px;
+  article {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    max-width: 400px;
+  }
+}
+
+.img-circle {
+  width: 50%;
+}
+
+#home-top {
+  font-family: Raleway, Verdana;
+  color: #ffffff;
+  height: 50px;
+}
