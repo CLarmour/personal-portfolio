@@ -2,16 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body {
+  background: linear-gradient(to bottom, #ffffff, #66ff33);
+}
+
 #Greetings {
   font-family: Raleway, Verdana;
-  background-color: #003366;
-  color: #ffffff;
+  color: #000066;
   font-weight: 300;
 }
 
 #info {
   font-family: Raleway, Verdana;
-  color: #003366;
+  color: #000066;
 }
 
 .container {
