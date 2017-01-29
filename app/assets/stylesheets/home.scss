@@ -2,11 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
-  background: linear-gradient(to bottom, #ffffff, #66ff33);
-}
 
 #Greetings {
+  background: linear-gradient(to bottom, #ffffff, #66ff33);
   font-family: Raleway, Verdana;
   color: #000066;
   font-weight: 300;
@@ -15,6 +13,7 @@ body {
 #info {
   font-family: Raleway, Verdana;
   color: #000066;
+  background: linear-gradient(to bottom, #66ff33, #ffffff);
 }
 
 .container {
@@ -36,4 +35,8 @@ body {
   font-family: Raleway, Verdana;
   color: #ffffff;
   height: 50px;
+}
+
+.intro {
+  text-align: right;
 }
