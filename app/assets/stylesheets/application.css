@@ -14,8 +14,13 @@
  *= require_self
  */
 
-.footer {
+.header {
   background: #ffffff;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
 }
 
 .back-to-top {
